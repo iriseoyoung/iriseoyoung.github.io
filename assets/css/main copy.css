@@ -344,7 +344,12 @@ input, select, textarea {
 }
 
 /* Hide the link that should open and close the topnav on small screens */
-}
+
+	@media screen and (max-width: 480px) {
+		.topnav a {
+			margin: 0 0.5em 1.5em 0;
+		}
+	}
 
 /*	.topnav {
 	  background-color: #ffffff;
@@ -2330,7 +2335,8 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		postiion: relative;
-		margin: -2.5em 0 2em -2.5em;
+		margin: -2.5em 0 0 -2.5em;
+		
 	}
 
 		.tiles article {
