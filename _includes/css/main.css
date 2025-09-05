@@ -36,7 +36,7 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
+/* hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
@@ -75,7 +75,7 @@ hr.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
 }
-
+ */
 .img-centered {
     margin: 0 auto;
 }
