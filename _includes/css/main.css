@@ -4,6 +4,17 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+.nunito-sans-<uniquifier> {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -32,7 +43,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "nunito-sans", sans-serif;
     font-weight: 700;
 }
 
