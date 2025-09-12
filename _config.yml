@@ -32,8 +32,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: iriseoyoung
+  # location: Location
   social: Around the Web
   credits: Credits
 
