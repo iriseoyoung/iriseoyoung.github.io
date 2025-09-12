@@ -28,7 +28,7 @@
   font-style: italic;
 }
 
-.nunito-sans-<uniquifier> {
+/* .nunito-sans-<uniquifier> {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -36,7 +36,7 @@
   font-variation-settings:
     "wdth" 100,
     "YTLC" 500;
-}
+} */
 
 body {
     overflow-x: hidden;
@@ -65,7 +65,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "nunito-sans", sans-serif;
+    font-family: "Courier Prime", monospace;
     font-weight: 700;
 }
 
