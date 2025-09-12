@@ -4,6 +4,29 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
 
 .nunito-sans-<uniquifier> {
   font-family: "Nunito Sans", sans-serif;
@@ -42,7 +65,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: "nunito-sans", sans-serif;
     font-weight: 700;
 }
