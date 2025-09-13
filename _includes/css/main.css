@@ -131,10 +131,10 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* text-transform: uppercase; */
+    font-family: "Courier Prime", monospace;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header .intro-text .skills {
