@@ -1,0 +1,19 @@
+current directory: /Users/iriseoyoung/Desktop/iriseoyoung.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/iriseoyoung/.rubies/ruby-3.4.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/iriseoyoung/Desktop/iriseoyoung.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250917-10763-dqjb2o sitelibdir\=./.gem.20250917-10763-dqjb2o clean
+
+current directory: /Users/iriseoyoung/Desktop/iriseoyoung.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250917-10763-dqjb2o sitelibdir\=./.gem.20250917-10763-dqjb2o
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: directory not found for option '-L/usr/local/opt/gdbm/lib'
+
+current directory: /Users/iriseoyoung/Desktop/iriseoyoung.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250917-10763-dqjb2o sitelibdir\=./.gem.20250917-10763-dqjb2o install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250917-10763-dqjb2o/racc
+
+current directory: /Users/iriseoyoung/Desktop/iriseoyoung.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250917-10763-dqjb2o sitelibdir\=./.gem.20250917-10763-dqjb2o clean
