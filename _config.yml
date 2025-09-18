@@ -2,11 +2,11 @@
 title: iriseoyoung
 email: iris.sy.kang@gmail.com
 url: https://iriseoyoung.github.io
+baseurl: "/iriseoyoung.github.io"
 description: "Iris Kang's artist/maker portfolio website"
 keywords: "iriseoyoung, artist, maker, portfolio"
-skills: "sound artist - maker of all sorts"
+skills: "i'm just testing"
 meta_author: iriseoyoung
-
 # Google webmaster tools
 google_verify:
 
@@ -25,10 +25,10 @@ disqus_shortname: iris
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 000000 #80B3FF
+  primary-rgb: "0,0,0" #"128,179,255"
+  secondary: BFBFBF #FD6E8A
+  secondary-dark: 8C8C8C #A2122F
 
 # Footer settings
 footer:
