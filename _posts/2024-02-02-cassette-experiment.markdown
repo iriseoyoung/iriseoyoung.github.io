@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2024-02-02
-img: cake.png
+img: cassette.jpg
 alt: image-alt
 project-date: ongoing
 category: sound
