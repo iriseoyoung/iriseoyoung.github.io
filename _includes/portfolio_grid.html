@@ -2,24 +2,69 @@
 <section id="portfolio">
   <div class="container portfolio-flex-grid">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <!-- <h2>Portfolio</h2> -->
-        <!-- <hr class="star-primary"> -->
+      <div class="col-lg-12 text-left">
       </div>
     </div>
+
+    <!-- Sound -->
+    <h3 style="color: rgb(73, 73, 73);">Sound</h3>
+    <hr class="star-primary">
     <div class="portfolio-flex-row">
-      {% for post in site.posts %}
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
+      {% assign sorted_sound = site.categories.sound | sort: 'order' %}
+      {% for post in site.categories.sound %}
+        <div class="portfolio-flex-item portfolio-item">
+          <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <h3>{{ post.title }}</h3>
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
             </div>
-          </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-        </a>
-      </div>
+            <img src="{{ site.baseurl }}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          </a>
+        </div>
       {% endfor %}
     </div>
+    
+    <!-- Performance -->
+    <h3 style="color: rgb(73, 73, 73);">Performances</h3>
+    <hr class="star-primary">
+    <div class="portfolio-flex-row">
+      {% assign sorted_sound = site.categories.sound | sort: 'performance' %}
+      {% for post in site.categories.performance %}
+        <div class="portfolio-flex-item portfolio-item">
+          <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <h3>{{ post.title }}</h3>
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="{{ site.baseurl }}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Making -->
+    <h3 style="color: rgb(73, 73, 73);">Making+++</h3>
+    <hr class="star-primary">
+    <div class="portfolio-flex-row">
+      {% assign sorted_sound = site.categories.sound | sort: 'making' %}
+      {% for post in site.categories.making %}
+        <div class="portfolio-flex-item portfolio-item">
+          <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                 <h3>{{ post.title }}</h3>
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="{{ site.baseurl }}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+
   </div>
 </section>

@@ -40,14 +40,17 @@
 
 body {
     overflow-x: hidden;
+    color:#3c3c3c;
 }
 
 p {
     font-size: 20px;
+    color:#3c3c3c;
 }
 
 p.small {
-    font-size: 16px;
+    font-size: 20px;
+    color:#3c3c3c;
 }
 
 a,
@@ -55,8 +58,12 @@ a:hover,
 a:focus,
 a:active,
 a.active {
+    font-size:20px;
     outline: 0;
-    color: #{{ site.color.primary }};
+    /* color: #{{ site.color.primary }}; */
+}
+a:link {
+    color:#324c3e;
 }
 
 h1,
@@ -67,6 +74,7 @@ h5,
 h6 {
     font-family: "Courier Prime", monospace;
     font-weight: 700;
+    color: #628a7e;
 }
 
 /* hr.star-light,
@@ -134,12 +142,13 @@ header .intro-text .name {
     /* text-transform: uppercase; */
     font-family: "Courier Prime", monospace;
     font-size: 1.5em;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 200;
+    color: #ffab2d
 }
 
 @media(min-width:768px) {
@@ -149,7 +158,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 2.5em;
     }
 
     header .intro-text .skills {
@@ -214,7 +223,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #000000;
     background: #{{ site.color.primary }};
 }
 
@@ -273,6 +282,7 @@ section.success {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
+    color: #fff
 }
 
 #portfolio * {
@@ -312,7 +322,7 @@ section.success {
     }
   } */
 
-.btn-outline {
+/* .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
@@ -385,30 +395,31 @@ section.success {
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
-
+ */
 footer {
-    color: #fff;
+    color: #474747;
 }
 
 footer h3 {
     margin-bottom: 30px;
 }
 
-footer .footer-above {
-    padding-top: 50px;
+/* footer .footer-above {
+    padding-top: 30px;
     background-color: #{{ site.color.secondary }};
 }
-
+ */
 footer .footer-col {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #ffffff;
+    /* background-color: #{{ site.color.secondary-dark }}; */
 }
 
-.btn-social {
+/* .btn-social {
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -423,7 +434,7 @@ footer .footer-below {
 .btn:active,
 .btn.active {
     outline: 0;
-}
+} */
 
 .scroll-top {
     z-index: 1049;
@@ -455,6 +466,7 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    color:#3c3c3c
 }
 
 .portfolio-modal .modal-content h2 {
@@ -489,7 +501,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #ffffff /* #{{ site.color.secondary }}; */
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
