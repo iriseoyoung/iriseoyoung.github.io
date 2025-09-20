@@ -2,7 +2,7 @@
 layout: default
 modal-id: 10
 date: 2025-01-01
-img: diy-electronics.jpg
+img: diy-electronics.png
 alt: image-alt
 project-date: April 2014
 category: making

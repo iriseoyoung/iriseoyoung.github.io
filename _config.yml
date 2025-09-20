@@ -1,7 +1,7 @@
 # Site settings
 title: iriseoyoung
 email: iris.sy.kang@gmail.com
-url: https://iriseoyoung.github.io
+url: "https://iriseoyoung.github.io"
 baseurl: "/iriseoyoung.github.io"
 description: "Iris Kang's artist/maker portfolio website"
 keywords: "iriseoyoung, artist, maker, portfolio"
@@ -9,6 +9,8 @@ skills: "maker of all sorts - sound artist - etc..."
 meta_author: iriseoyoung
 # Google webmaster tools
 google_verify:
+
+
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
