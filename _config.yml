@@ -31,8 +31,8 @@ color:
   secondary-dark: 8C8C8C #A2122F
 
 # Footer settings
-#footer:
-#  copyright: iriseoyoung
+footer:
+  copyright: iriseoyoung
 #  location: Location
 #  social: find me elsewhere
 #  credits: credits

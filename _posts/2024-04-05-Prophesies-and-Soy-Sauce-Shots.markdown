@@ -2,7 +2,7 @@
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: soysauce1.jpg
+img: soysauce1.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
