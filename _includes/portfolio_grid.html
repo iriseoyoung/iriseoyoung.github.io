@@ -10,7 +10,7 @@
     <div class="portfolio-flex-row">
       {% assign sorted_sound = site.categories.sound | sort: 'order' %}
       {% for post in site.categories.sound %}
-        <div class="portfolio-flex-item portfolio-item">
+        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
           <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
             <div class="caption">
               <div class="caption-content">
@@ -30,7 +30,7 @@
     <div class="portfolio-flex-row">
       {% assign sorted_sound = site.categories.sound | sort: 'performance' %}
       {% for post in site.categories.performance %}
-        <div class="portfolio-flex-item portfolio-item">
+        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
           <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
             <div class="caption">
               <div class="caption-content">
@@ -50,7 +50,7 @@
     <div class="portfolio-flex-row">
       {% assign sorted_sound = site.categories.sound | sort: 'making' %}
       {% for post in site.categories.making %}
-        <div class="portfolio-flex-item portfolio-item">
+        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
           <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
             <div class="caption">
               <div class="caption-content">
