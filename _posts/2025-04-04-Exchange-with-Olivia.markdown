@@ -2,13 +2,13 @@
 layout: default
 modal-id: 3
 date: 2024-04-04
-img: olivia.png
+thumbnail: olivia.png
 alt: image-alt
 project-date: 2025-ongoing
 category: sound
 ---
 
-Video - audio exchange project with filmmaker [Olivia Cunnally](https://www.youtube.com/@oliviacannoli)
+Video↔audio exchange project with filmmaker [Olivia Cunnally](https://www.youtube.com/@oliviacannoli)
 
 <br/><br/>
 <h3>Theme 1: Procrastination</h3>

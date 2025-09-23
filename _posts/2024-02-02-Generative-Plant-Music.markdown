@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2024-02-02
-img: maxmsp.png
+thumbnail: "maxmsp.png"
 alt: image-alt
 project-date: 2022-?
 category: sound
@@ -17,22 +17,22 @@ Generative music from plants:: Generative Max MSP patch with arduino and node.js
 
 <br/><br/>
 
-Demo video:
+<h4>Demo Video</h4>
 <div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9Sb_fUMfHaw?si=9FM2nTtWI08dRF9i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <br/><br/>
-Main Code
+<h4>Main Code</h4>
 <br/><br/>
 <img src="{{ site.baseurl }}/img/portfolio/main-code.png" alt="Main MaxMSP Code" class="center-image" width="500">
 
 
 <br/><br/>
-Synth Subpatch
+<h4>Synth Subpatch</h4>
 <br/><br/>
 <img src="{{ site.baseurl }}/img/portfolio/synth.png" alt="Synth subpatch" class="center-image" width="400">
 
 <br/><br/>
-Arduino Subpatch
+<h4>Arduino Subpatch</h4>
 <br/><br/>
 <img src="{{ site.baseurl }}/img/portfolio/arduino.png" alt="Arduino Subpatch" class="center-image" width="400">

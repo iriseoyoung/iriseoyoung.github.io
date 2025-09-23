@@ -68,7 +68,6 @@ a:link {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -76,6 +75,14 @@ h6 {
     font-weight: 700;
     color: #628a7e;
 }
+
+h3{
+    font-family: "Courier Prime", monospace;
+    font-weight: 600;
+    color: #585858;
+
+}
+
 
 /* hr.star-light,
 hr.star-primary {
@@ -566,4 +573,12 @@ footer .footer-below {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.md-photo {
+  max-width: 768px;   /* cap at 768px */
+  width: 100%;        /* shrink responsively */
+  height: auto;       /* keep proportions */
+  display: block;
+  margin: 0 auto;     /* center it */
 }
