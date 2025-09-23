@@ -4,7 +4,7 @@ modal-id: 2
 date: 2024-02-02
 img: maxmsp.png
 alt: image-alt
-project-date: 2022-ongoing
+project-date: 2022-?
 category: sound
 tools: MaxMSP, Arduino (physical computing), Ableton
 ---
@@ -13,7 +13,7 @@ tools: MaxMSP, Arduino (physical computing), Ableton
 
 <br/><br/>
 
-Generative music from plants:: I created a generative music patch with arduino and node.js. The arduino sends the value from the photoresistor and soil moisture sensor to Max. The light value from the photoresistor is mapped to the gain in the mc.fffb~ object, making the water bubble sound louder as it gets darker. The soil moisture value determines the midi note of the subtractive synthesizer created with the water bubble sound. The temperature sensors were not working great in arduino, so I decided to use node.js to get the temperature and humidity data. Humidity changes the cutoff frequency of the water bubble synthesizer, so that high frequencies are less present when it is more humid. Lastly, the temperature is mapped to the value for mc.sig~.
+Generative music from plants:: Generative Max MSP patch with arduino and node.js. The arduino sends the value from the photoresistor and soil moisture sensor to Max. The light value from the photoresistor is mapped to the gain in the mc.fffb~ object, making the water bubble sound louder as it gets darker. The soil moisture value determines the midi note of the subtractive synthesizer created with the water bubble sound. The temperature sensors did not work well, so I ended up using node.js to retrieve the temperature and humidity data from the web. Humidity determines the cutoff frequency of the water bubble synthesizer (high frequencies are less present when it is more humid). Lastly, the temperature is mapped to the value for mc.sig~.
 
 <br/><br/>
 

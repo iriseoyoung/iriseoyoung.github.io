@@ -4,9 +4,9 @@ modal-id: 9
 date: 2025-08-23
 img: fiber.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: continuous
 category: making
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-order: 2
 ---
+Fabric banners for wedding
+<br>
+Crochet/knit projects

@@ -1,12 +1,18 @@
 ---
 layout: default
 modal-id: 5
-date: 2014-07-14
+date: 2024-10-20
 img: basement-show.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: October 2024
 category: performance
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-order: 2
+tools: Ableton, Ableton push
 ---
+
+Ambient live set, with reading voices from Jenna
+
+<br>
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/F_me0nxI8jg?si=vhnE3rvXw_7_A9Tq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+Video credit: Kara Scully
