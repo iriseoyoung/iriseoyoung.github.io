@@ -15,4 +15,4 @@ category: making
 
 <br>
 <h3>Crochet/knit projects</h3>
-I gave away majority of my projects as gifts, so I am im process of collecting photos ^_T
+I gave away majority of my projects as gifts, so I am in process of collecting photos ^_T
